@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #5F68C3;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height: 720px;
+}
+
+.main-header {
+    display: block !important;
+    width: 450px;
+    margin: 20px auto 0px auto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.lp-window-root>.lpmx {
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin-top: 160px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 20px auto;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+.reset-button {
+    background-color: #cf2e2e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 3px;
+  }
+
+  .logo{
+    display: block;
+    position:absolute;
+    margin: 0;
+  }
+
+  .logo img {
+    max-width: 60%;
+    height: auto;
+  }
