@@ -2,7 +2,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport"
+        content="user-scalable=0, width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
     <title>Sample Demo</title>
     <link rel="stylesheet" href="resources/style.css" />
     <link id="samples" rel="stylesheet" type="text/css" href="" />
@@ -14,34 +15,43 @@
 
     <script>
         function selectSample(value) {
-            var sheets = document
-                .getElementById('samples');
-  
-            sheets.href = value;
+            document.getElementById('samples').href = value;
+        }
+
+        function resetSample() {
+            document.getElementById('samples').href = '';
         }
     </script>
 </head>
 
 <body>
-    <div class="main-header" style="display:none">
+    <div class="logo">
+        <img src="resources/tcs-logo.png">
+    </div>
+
+    <div class="main-header">
         Select an option from dropdown
     </div>
 
-    <div id="container">
-        <select onchange="selectSample(this.value)">
-          <option hidden>Select an option ...</option>
-          <option style="font-weight:bold" disabled>Land Rover</option>
-          <option value="1">Sample 1</option>
-          <option value="2">Sample 2</option>
-          <option value="3">Sample 3</option>
-          
-          <option disabled><!-- blank --></option>
-           <option style="font-weight:bold" disabled>Jaguar</option>
-          <option value="resources/samples/Jag-1.txt">Sample 1</option>
-          <option value="resources/samples/Jag-2.txt">Sample 2</option>
-          <option value="6">Sample 3</option>
-        </select>
-        
+    <div class='container'>
+        <div class="dropdown">
+            <select onchange="selectSample(this.value)">
+                <option hidden>Select an option ...</option>
+                <option style="font-weight:bold" disabled>Land Rover</option>
+                <option value="1">Sample 1</option>
+                <option value="2">Sample 2</option>
+                <option value="3">Sample 3</option>
+
+                <option disabled>
+                    <!-- blank -->
+                </option>
+                <option style="font-weight:bold" disabled>Jaguar</option>
+                <option value="resources/samples/Jag-1.txt">Sample 1</option>
+                <option value="resources/samples/Jag-2.txt">Sample 2</option>
+                <option value="6">Sample 3</option>
+            </select>
+        </div>
+        <button class="reset-button" onclick="resetSample()">Reset</button>
     </div>
 </body>
 
