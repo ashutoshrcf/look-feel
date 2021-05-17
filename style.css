@@ -1,12 +1,12 @@
 body {
-    background: #090C43;
+    background: #5F68C3;
     overflow-y: hidden;
     overflow-x: hidden;
     min-height: 720px;
 }
 
-.greeting-bot-header {
-    font-family: Roboto;
+.main-header {
+    font-family: Arial, Helvetica, sans-serif;
     display: block !important;
     width: 360px;
     white-space: nowrap;
