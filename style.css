@@ -79,14 +79,6 @@ a:hover {
     margin-bottom: 12px;
 }
 
-.spotlight-content-container {
-    width: 324px;
-    height: 459px;
-    display: block !important;
-    margin-top: 152px;
-    margin-left: 82px;
-}
-
 .heading-h5 {
     font-family: Roboto;
     font-style: normal;
@@ -102,17 +94,6 @@ a:hover {
     color: #090C43;
 }
 
-.spotlight-title {
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: bold;
-    padding-top: 24px;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #005EF4;
-    /* Primary/Electric Blue */
-}
-
 .hyperlink-container {
     font-size: 14px;
     font-family: Roboto;
@@ -123,17 +104,6 @@ a:hover {
     /* Primary/Electric Blue */
 }
 
-.spotlight-content {
-    font-style: normal;
-    font-weight: 500;
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.04em;
-    color: #5F617A;
-    margin-bottom: 12px;
-}
-
 .lp-window-root>.lpmx {
     left: 0 !important;
     right: 0 !important;
@@ -141,32 +111,6 @@ a:hover {
     margin-top: 160px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-}
-
-.spotlight-container {
-    background-color: #F8F5F3;
-    width: 542px;
-    height: 542px;
-    bottom: -200px;
-    position: absolute;
-    display: none;
-    right: -8%;
-    overflow: hidden;
-    border-radius: 100%;
-}
-
-.liveperson-logo {
-    display: block !important;
-    margin: 32px 0 0 32px;
-}
-
-.lp-tips-container {
-    /*display: inline-block !important;*/
-    display: none;
-    width: 24%;
-    height: 20%;
-    margin-left: 40px;
-    margin-top: 180px;
 }
 
 .template-greeting-bot {
@@ -198,51 +142,4 @@ a:hover {
     color: #FFFFFF;
     margin-top: 224px;
     padding: 0 12px 0 12px;
-}
-
-.lp-tips-header {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-    font-family: Roboto;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
-
-.lp-tips-content {
-    /* width: 328px;
-    height: 24px; */
-    font-weight: normal !important;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-    font-family: Roboto;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-
-}
-
-
-@media (max-width: 1367px) {
-    .spotlight-container {
-        right: -16%;
-        margin-top: 300px;
-    }
-
-    .heading-h5 {
-        width: 240px;
-    }
-
-}
-
-@media (max-width: 1020px) {
-
-    .lp-tips-container {
-        display: none !important
-    }
-
-    .spotlight-container {
-        display: none !important;
-    }
 }
