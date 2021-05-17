@@ -5,15 +5,6 @@ body {
     min-height: 720px;
 }
 
-.lp-window-root>.lpmx {
-    left: 0 !important;
-    right: 0 !important;
-    top: 0 !important;
-    margin-top: 160px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-}
-
 .greeting-bot-header {
     font-family: Roboto;
     display: block !important;
@@ -26,4 +17,13 @@ body {
     line-height: 28px;
     letter-spacing: 0.008em;
     color: #FFFFFF;
+}
+
+.lp-window-root>.lpmx {
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin-top: 160px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
