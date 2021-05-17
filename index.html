@@ -20,6 +20,7 @@
 
         function resetSample() {
             document.getElementById('samples').href = '';
+            document.getElementById('select-dropdown').selectedIndex = 0;
         }
     </script>
 </head>
@@ -35,7 +36,7 @@
 
     <div class='container'>
         <div class="dropdown">
-            <select onchange="selectSample(this.value)">
+            <select onchange="selectSample(this.value)" id="select-dropdown">
                 <option hidden>Select an option ...</option>
                 <option style="font-weight:bold" disabled>Land Rover</option>
                 <option value="1">Sample 1</option>
