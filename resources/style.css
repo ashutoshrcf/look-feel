@@ -9,12 +9,17 @@ body {
 .main-header {
     display: block !important;
     width: 450px;
-    margin: 20px auto 0px auto;
+    margin: 15% auto 0px 5%;
     font-weight: bold;
     font-size: 24px;
     color: #FFFFFF;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
+/*
 .lp-window-root>.lpmx {
     left: 0 !important;
     right: 0 !important;
@@ -23,12 +28,17 @@ body {
     margin-right: auto !important;
     margin-left: auto !important;
 }
+*/
 
 .container{
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto 20px auto;
+  margin: 20% auto 0 11%;
+  float: left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .dropdown {
